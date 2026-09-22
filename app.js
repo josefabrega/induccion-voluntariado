@@ -8,7 +8,7 @@
   /* Pega aquí la URL de la implementación del Apps Script.
      Si se deja vacío, el formulario funciona en modo demostración
      (no registra nada, solo muestra la pantalla de confirmación). */
-  const ENDPOINT = "";
+  const ENDPOINT = "https://script.google.com/macros/s/AKfycbw5kN63-OKRFkOTd4iJhWGyPB-IaNC5li5bWE2XLPLgHXAa0UxdUFQSmjcjAYBtaho1dw/exec";
 
   var steps = Array.prototype.slice.call(document.querySelectorAll(".step"));
   var total = steps.length;
